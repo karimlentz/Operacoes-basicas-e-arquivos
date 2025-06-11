@@ -19,5 +19,7 @@ int main(){
 	saida << fixed << setprecision(1) << area << " m2" << endl;
 	saida << fixed << setprecision(1) << potencia << " W" << endl;
 	
+	saida.close();
+	
 	return 0;
 }
