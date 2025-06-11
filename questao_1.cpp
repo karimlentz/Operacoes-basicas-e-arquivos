@@ -14,5 +14,7 @@ arquivo >> palavra;
 
 cout << palavra << endl;
 
+arquivo.close();
+
 return 0;
 }
