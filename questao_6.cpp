@@ -17,5 +17,8 @@ int main(){
 	ofstream saida("saida.txt");
 	saida << fixed << setprecision(3) << media;
 	
+	entrada.close();
+	saida.close();
+	
 	return 0;
 }
