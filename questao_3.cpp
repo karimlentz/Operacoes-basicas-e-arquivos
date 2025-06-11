@@ -15,6 +15,8 @@ int main(){
 	distancia = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 	
 	cout << distancia << endl;
+	
+	entrada.close();
 
 return 0;
 }
