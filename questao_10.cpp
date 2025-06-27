@@ -1,16 +1,18 @@
 #include <iostream>
 #include <fstream>
+#include <cmath>
 
 using namespace std;
 
 int main(){
 	
-	int alt, total, degraus;
+	float altDegrau, altAlcan;
+	int degraus;
 	
 	ifstream entrada("entrada.txt");
-	entrada >> alt >> total;
+	entrada >> altDegrau >> altAlcan;
 	
-	degraus = (total*100) / alt;
+	degraus =  ceil(altAlcan * 100 / (altDegrau));
 	
 	ofstream saida("degraus.txt");
 	saida << degraus << endl;
@@ -18,5 +20,5 @@ int main(){
 	entrada.close();
 	saida.close();
 	
-	return 0;
+return 0;
 }
