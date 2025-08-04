@@ -5,18 +5,14 @@ using namespace std;
 
 int main(){
 	
-	int horas, min;
-	cin >> horas >> min;
+	float profundidade, altura, largura, densidade;
 	
-	int horasMin, totalMin, minSeg;
-	horasMin = horas * 60;
-	totalMin = horasMin + min;
-	minSeg = totalMin * 60;
+	ifstream entrada ("entrada.txt");
+	entrada >> profundidade >> altura >> largura >> densidade;
 	
-	ofstream saida("saida.txt");
-	saida << horasMin << endl << totalMin << endl << minSeg << endl;
-	
-	saida.close();
+	float peso;
+	peso = (profundidade * altura * largura * densidade);
+	cout << peso << endl;
 	
 return 0;
 }
