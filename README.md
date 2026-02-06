@@ -101,6 +101,8 @@ O produto entre os três dígitos.
 **Exemplo de Saída (saida.txt):**
 40
 
+---
+
 ### Questão 5: Operações básicas - Média Ponderada (arquivo)
 
 Faça um programa que leia do arquivo notas.txt três notas, e seus respectivos pesos. O programa deve calcular e imprimir em um arquivo final.txt a média ponderada dos valores informados. 
@@ -128,6 +130,8 @@ com duas casas decimais)
 70 3
 **Exemplo de Saída (final.txt):**
 59.17
+
+---
 
 ### Questão 6: Operações básicas - Média (arquivo)
 Faça um programa que leia do arquivo dados.txt oito valores. O programa deve calcular e imprimir em um arquivo media.txt a média
@@ -235,6 +239,8 @@ casa decimal).
 **Exemplo de Saída (arquivo potencia.txt):**
 37.1m2
 667.8W
+
+---
 
 ### Questão 10: Operações básicas - Número de degraus (arquivo)
 Cada degrau de uma escada tem uma certa altura. Faça um programa que receba essa altura em centímetros e a altura que o usuário deseja subir na escada em metros, em um arquivo denominado entrada.txt. Calcule e escreva no arquivo degraus.txt quantos degraus o usuário deverá subir para, no mínimo, atingir seu objetivo, sem se preocupar com a altura do usuário.
